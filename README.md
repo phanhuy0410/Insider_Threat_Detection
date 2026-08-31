@@ -102,9 +102,10 @@ Their prediction probabilities are combined through **probability-level fusion**
 Since insider threat datasets are highly imbalanced, several strategies are investigated:
 
 * Random Undersampling
+* K-Means Clustering
 * Class Weighting
+* Focal Loss
 * SMOTE
-* Hybrid sampling strategies
 
 ---
 
