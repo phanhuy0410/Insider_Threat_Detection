@@ -1,6 +1,6 @@
 # Insider Threat Detection from User Log Data
 
-## 📌 Overview
+## Overview
 
 This project investigates **insider threat detection** using user activity logs from the **CERT Insider Threat Dataset**.
 
@@ -8,7 +8,7 @@ The framework combines behavioral feature engineering, fuzzy learning, deep lear
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 Experiments are conducted on:
 
@@ -27,19 +27,19 @@ Raw logs are processed and transformed into structured behavioral features for m
 
 ---
 
-## 🏗️ Overall Architecture
+## Overall Architecture
 
 The overall architecture of the proposed framework is illustrated below.
 
 <p align="center">
-  <img src="<img width="1201" height="584" alt="Sơ đồ kiến trúc tổng quan_final drawio" src="https://github.com/user-attachments/assets/55c27188-84de-4e2e-8995-5111d4442cb1" />"
+  <img src="image/Sơ đồ kiến trúc tổng quan_final.drawio.png" width="900">
 </p>
 
 The framework extracts behavioral features from CERT logs and models user behavior at both **session-level** and **user-level**. The resulting predictions are combined through **probability-level fusion** for final classification.
 
 ---
 
-## 🧩 Feature Engineering
+## Feature Engineering
 
 Behavioral features are extracted from different types of user activities, including:
 
@@ -54,7 +54,7 @@ Features are constructed at different behavioral levels and further processed fo
 
 ---
 
-## 🤖 Models
+## Models
 
 Several machine learning and deep learning approaches are investigated:
 
@@ -86,7 +86,7 @@ The experiments also investigate hybrid architectures that combine fuzzy learnin
 
 ---
 
-## 👤 Session & User Modeling
+## Session & User Modeling
 
 User behavior is modeled at two complementary levels:
 
@@ -97,7 +97,7 @@ Their prediction probabilities are combined through **probability-level fusion**
 
 ---
 
-## ⚖️ Class Imbalance
+## Class Imbalance
 
 Since insider threat datasets are highly imbalanced, several strategies are investigated:
 
@@ -108,7 +108,7 @@ Since insider threat datasets are highly imbalanced, several strategies are inve
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 Models are evaluated using:
 
@@ -123,7 +123,7 @@ Particular emphasis is placed on **Macro Recall, Macro F1, and ROC-AUC** due to 
 
 ---
 
-## 🏆 Results
+## Results
 
 The project compares traditional machine learning, sequence-based deep learning, Transformer-based, fuzzy-learning, and hybrid approaches.
 
@@ -131,7 +131,7 @@ Detailed experimental results and comparisons are provided in the accompanying t
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 * Python
 * NumPy
@@ -144,7 +144,7 @@ Detailed experimental results and comparisons are provided in the accompanying t
 
 ---
 
-## 📚 Reference
+## Reference
 
 This project uses the **CERT Insider Threat Dataset** and builds upon the feature extraction work from:
 
@@ -154,6 +154,6 @@ This project uses the **CERT Insider Threat Dataset** and builds upon the featur
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 The CERT Insider Threat Dataset is a **synthetic dataset** designed for research and experimentation. Results should therefore be interpreted as experimental findings rather than direct evidence of performance in real-world enterprise environments.
