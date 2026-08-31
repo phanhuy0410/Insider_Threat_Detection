@@ -138,7 +138,6 @@ Detailed experimental results and comparisons are provided in the accompanying t
 * Pandas
 * Scikit-learn
 * TensorFlow / Keras
-* LightGBM
 * imbalanced-learn
 * Matplotlib
 
